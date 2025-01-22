@@ -5,12 +5,10 @@ Control elero/Nice/Griesser unidirectional shutters using the PCB out of a Vario
 Contrary to the bidirectional mode, there seems to be no open-source implementation of the Elero unidirectional protocol for older shutter receivers. The goal here is to enable the control of Elero/Nice/Griesser shutters with unidirectional receivers from Home Assistant.
 
 # Requirements
-- Elero VarioTel2 remote
+- Elero VarioTel2 remote (or a Remoto 5 should work the same way)
 - ESP32
 
 # Hardware
-You will need a varioTel 2 remote (or a Remoto 5 should work the same way)
-
 <img src="https://github.com/user-attachments/assets/448aaded-74fe-45b5-ae4a-cf0c7e925a60" alt="Image 2" width="300">
 
 
