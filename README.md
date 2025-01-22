@@ -2,6 +2,7 @@
 Control elero/Nice/Griesser unidirectional shutters using the PCB out of a VarioTel2 and an ESP32
 
 # Why?
+Contrary to the bidirectionnal mode, there appears to be no open source implementation of the elero unidirectionnal protocol for older shutters recepters. The goals here is to be able to controle elero/Nice/Griesser shutters with unidirectional receptors from Home Assistant.
 
 # Requirements
 
