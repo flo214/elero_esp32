@@ -52,7 +52,7 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "mCtIXZKvxhUux2I79NPNr+C8JyVh51y+c6hcD+3w6cU="
+    key: "xxxxxxxxxxxxxx"
 
 # Allow Over-The-Air updates
 ota:
@@ -62,15 +62,15 @@ wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
 
-  manual_ip:  # Optionnel : configuration d'une IP statique
-    static_ip: 192.168.11.156
-    gateway: 192.168.11.1
+  manual_ip:  # Optionnal
+    static_ip: 192.168.x.xx
+    gateway: 192.168.x.x
     subnet: 255.255.255.0
 
   # Mode Point d'accès (optionnel, utilisé en cas de déconnexion)
   ap:                  
     ssid: "ESPHome_AP"
-    password: "jiorew&7rew"
+    password: "xxxxxxx"
 
 # Déclaration des sorties GPIO pour les relais
 output:
